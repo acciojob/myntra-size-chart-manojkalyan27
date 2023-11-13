@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+
+table,th,td{
+	border: 1px solid black;
+	width: 500px;
+	border-collape: collapse;
+}
+thead>tr{
+	background-color: rgba(192,80,77,255);
+	text-align: left;
+}
+
+/* table>tr:nth-child(1){
+	background-color: rgba(218,150,148,255);
+	y is this not working?
+} */
+
+table tr:nth-child(1){
+	background-color: rgba(218,150,148,255);
+}
+table tr:nth-child(2){
+	background-color: rgba(242,220,219,255);
+}
+table tr:nth-child(3){
+	background-color: rgba(217,217,217,255);
+}
